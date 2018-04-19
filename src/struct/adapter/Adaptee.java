@@ -1,4 +1,4 @@
-package behavior.adapter;
+package struct.adapter;
 
 /**
  * Created by waiting on 2018/3/29.
