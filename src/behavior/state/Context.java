@@ -1,20 +1,10 @@
-package behavior.strategy.State;
+package behavior.state;
 
 /**
  * Created by waiting on 2018/3/29.
  */
-public class Context {
-    private State state;
+public interface Context {
 
-    public Context(State state) {
-        this.state = state;
-    }
-
-    public void setState(State state) {
-        this.state = state;
-    }
-    public void doSth() {
-        state.doSth(this);
-        state = new ConcreteState1();
-    }
+    public void setState(State state);
+    public void doSth() ;
 }

@@ -1,4 +1,4 @@
-package behavior.strategy.State;
+package behavior.state;
 
 /**
  * Created by waiting on 2018/3/29.
